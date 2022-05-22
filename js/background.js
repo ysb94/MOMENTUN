@@ -5,5 +5,5 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgimg = document.createElement("img");
 
 bgimg.src = `img/${chosenImage}`;
-
+bgimg.className = "background";
 document.body.appendChild(bgimg);
